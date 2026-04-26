@@ -35,7 +35,7 @@ A guest logs into the system, views available rooms, selects a room, and enters 
 After booking a room, a guest can order food items from the hotel café menu. Each ordered item is added as a service bill and included in the final invoice during checkout.
 
 3. Payment Processing
-Once a booking is completed, the system supports multiple payment methods such as cash, card, and online payment. The payment is linked to the booking and its status is updated accordingly.
+Once a booking is completed, the system supports multiple payment methods such as cash. The payment is linked to the booking and its status is updated accordingly.
 
 4.  Employee Salary Management
 Employees can log in to view their details and calculate their salary. The system calculates total pay using base salary, bonus, and hours worked in a week.
@@ -112,12 +112,10 @@ Final bill is calculated as:
 Total = Room Charges + Service Charges + Tax - Discount
 Payment types supported:
 Cash Payment
-Card Payment
-Online Payment
 Payments can be linked directly to a booking using system functions.
 
 6. Hotel Features System
-The hotel also includes additional features:
+The hotel also includes additional features: (added through creating objects using the add feature)
 Swimming pool
 Gym access
 Café ordering system
